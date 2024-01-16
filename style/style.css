@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(0, 1, 2);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 150px;
+}
+.cardone {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: orange;
+    border-radius: 12px;
+    padding: 10px 40px 10px 10px;
+    transition: all;
+}
+.cardone:hover {
+    box-shadow: 0 0 25px orange;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.cardtwo {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: orange;
+    border-radius: 12px;
+    padding: 10px 40px 10px 10px;
+    transition: all;
+}
+.cardtwo:hover {
+    box-shadow: 0 0 25px orange;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.cardthree {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: orange;
+    border-radius: 12px;
+    padding: 10px 40px 10px 10px;
+    transition: all;
+}
+.cardthree:hover {
+    box-shadow: 0 0 25px orange;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.delete {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    transition: all;
+}
+.delete:hover {
+    box-shadow: 0 0 5px, 0 0 25px cyan;
+    transition: ease-in-out 0.4s;
+}
+#del {
+    cursor: pointer;
+    color: cyan;
+}
+::selection {
+    background: black;
+}
